@@ -39,7 +39,7 @@
            <h1>cadastro de jogador</h1>
        </div>
 
-       <form action="" method="post">
+       <form class="form_cadastro" action="" method="post">
 
             <div class="campo">
                 <label for="nome">Nome do jogador</label>
@@ -68,7 +68,7 @@
 
             <div class="campo">
                 <label for="nascimento">Nascimento</label>
-                <input type="date" name="nascimento" id="nascimento">
+                <input type="date" name="nascimento" id="nascimento" max>
             </div>
             
             <div class="campo">
@@ -83,6 +83,7 @@
             
             <fieldset>
                 <legend>Sexo</legend>
+
 
                 <input type="radio" name="sexo" value="M" id="Masculino"">
                 <label for="Masculino">Masculino</label>
@@ -105,7 +106,7 @@
                 </label>
             </div>
 
-            <button type="submit">Cadastrar</button>
+            <button type="submit" class="btn gradient">Cadastrar</button>
 
 
 
