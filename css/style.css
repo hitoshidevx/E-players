@@ -480,5 +480,45 @@ fieldset label{
     .campea{
         display: none;
     }
+    .sobre .container div{
+        width: 85%;
+        text-align: justify;
+    }
+    #horarios .container{
+        flex-direction: column;
+    }
+    .ao_vivo{
+        padding: 0;
+        border: none;
+        padding: 1em;
+    }
 
+    .em_breve{
+        padding: 0;
+        border: none;
+        padding: 1em;
+    }
+    .partida{
+        margin: 1em 0;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .card img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .noticias{
+        width: 95%;
+        padding-right: 15px;
+    }
+    .recentes{
+        padding: 0.5em;
+    }
+    .content{
+        flex-direction: column;
+    }
+    footer .container{
+        
+    }
 }
